@@ -23,10 +23,7 @@ class _HomeState extends State<Home> {
               icon: new Icon(Icons.add),
               onPressed: ()=>debugPrint("Add")
           ),
-          new IconButton(
-              icon: new Icon(Icons.title),
-              onPressed: ()=>debugPrint("Title")
-          )
+        
 
         ],
       ),
